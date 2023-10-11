@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {HomePageComponent} from './components/homePageComponent/HomePageComponentComponent';
+import {HomePageComponentComponent} from './components/homePageComponent/home-page-component.component'
 const routes: Routes = [
       {
-        path: 'home', component: HomePageComponent
+        path: 'home', component: HomePageComponentComponent
     },
     { path: '', redirectTo: 'HomePageComponent', pathMatch: 'full' },
     { path: '**', redirectTo: 'HomePageComponent' },
