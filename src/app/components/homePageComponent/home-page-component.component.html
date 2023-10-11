@@ -13,5 +13,5 @@
     <input [(ngModel)]="newUsername" placeholder="Enter your name">
     <button (click)="updateUsername()">Update</button>
   </div>
-
+<div class="tooltip" [ngClass]="{ show: showTooltip }">{{ tooltipText }}</div>
   <app-shared-carousel></app-shared-carousel>
