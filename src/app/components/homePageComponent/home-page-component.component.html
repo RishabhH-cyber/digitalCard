@@ -8,4 +8,10 @@
     <p>Please RSVP by [Insert RSVP Date]</p>
     <p>We look forward to celebrating with you!</p>
   </div>
+  <div>
+    <h2>Welcome, {{ username }}</h2>
+    <input [(ngModel)]="newUsername" placeholder="Enter your name">
+    <button (click)="updateUsername()">Update</button>
+  </div>
+
   <app-shared-carousel></app-shared-carousel>
