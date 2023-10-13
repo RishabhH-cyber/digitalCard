@@ -9,7 +9,9 @@
     "build-stage": "ng build:stage",
     "build-prod": "ng build:prod",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {
