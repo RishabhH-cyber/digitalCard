@@ -21,8 +21,8 @@ export class HomePageComponentComponent implements OnInit {
     
     // Update tooltip position based on mouse coordinates
     const tooltip = document.querySelector('.tooltip') as HTMLElement;
-    tooltip.style.left = (event.pageX + 10) + 'px';
-    tooltip.style.top = (event.pageY - 20) + 'px';
+    tooltip.style.left = (event.pageX + 20) + 'px';
+    tooltip.style.top = (event.pageY - 10) + 'px';
   }
 
   @HostListener('mouseout')
